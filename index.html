@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link type="image/gif" rel="icon" href="img/tilte-logo.png" sizes="16x16">
+    <title>Fashion Style</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 col-sm-12">
+                    <div class="main-mdlg">
+                        <div class="center-mdlg">
+                            <img class="logo" src="img/logo.png" alt="LOGO">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-12">
+                    <div class="hidden-xs hidden-sm visible-md visible-lg">
+                        <div class="main-xssm">
+                            <div class="center-xssm">
+                                <div class="input-group">
+                                    <input class="form-control form-control-lg" type="text" placeholder="Search">
+                                    <span class="input-group-addon" id="basic-addon1">Search</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="visible-xs visible-sm hidden-md hidden-lg">
+                        <div class="main">
+                            <div class="center">
+                                <div class="input-group">
+                                    <input class="form-control form-control-lg" type="text" placeholder="Search">
+                                    <span class="input-group-addon" id="basic-addon1">Search</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="button">
+                        <a href="#" class="action-button shadow animate blue" id="save-link">SignIN</a>
+                        <a href="#" class="action-button shadow animate green" id="save-link">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="topnav" id="myTopnav">
+        <a href="#" class="nav-menu">Menu</a>
+        <a href="#home" class="active">Home</a>
+        <a href="#news">Men's</a>
+        <a href="#contact">Women's</a>
+        <a href="#home">Cosmetics</a>
+        <a href="#about">Mobile's</a>
+        <a href="#home">Laptop's</a>
+        <a href="#home">Accessories</a>
+        <a href="#news">Desktop's</a>
+        <a href="#news">Electronic's</a>
+        <a href="#contact">Home Appliances</a>
+        <a href="#about">Vehicle Accessories</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+    <section id="slider">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <div class="slider">
+                        <div class="slider-inner">
+                            <input class="slider-open" type="radio" id="slider-1" name="slider" aria-hidden="true" hidden="" checked="checked">
+                            <div class="slider-item">
+                                <img src="img/text-css.png" alt="text-css">
+                            </div>
+                            <input class="slider-open" type="radio" id="slider-2" name="slider" aria-hidden="true" hidden="">
+                            <div class="slider-item">
+                                <img src="img/text-slider.png" alt="text-slider">
+                            </div>
+                            <input class="slider-open" type="radio" id="slider-3" name="slider" aria-hidden="true" hidden="">
+                            <div class="slider-item">
+                                <img src="img/text-without.png" alt="text-without">
+                            </div>
+                            <input class="slider-open" type="radio" id="slider-4" name="slider" aria-hidden="true" hidden="">
+                            <div class="slider-item">
+                                <img src="img/text-javascript.png" alt="text-javascript">
+                            </div>
+                            <label for="slider-3" class="slider-control prev control-1">‹</label>
+                            <label for="slider-2" class="slider-control next control-1">›</label>
+                            <label for="slider-1" class="slider-control prev control-2">‹</label>
+                            <label for="slider-3" class="slider-control next control-2">›</label>
+                            <label for="slider-2" class="slider-control prev control-3">‹</label>
+                            <label for="slider-4" class="slider-control next control-3">›</label>
+                            <label for="slider-3" class="slider-control prev control-4">‹</label>
+                            <label for="slider-1" class="slider-control next control-4">›</label>
+                            <ol class="slider-indicators">
+                                <li>
+                                    <label for="slider-1" class="slider-bullet">•</label>
+                                </li>
+                                <li>
+                                    <label for="slider-2" class="slider-bullet">•</label>
+                                </li>
+                                <li>
+                                    <label for="slider-3" class="slider-bullet">•</label>
+                                </li>
+                                <li>
+                                    <label for="slider-4" class="slider-bullet">•</label>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="hidden-xs hidden-sm visible-md visible-lg">
+                        <img class="side-img-mdlg" src="img/side-img.png" alt="Offers" />
+                    </div>
+                    <div class="visible-xs visible-sm hidden-md hidden-lg">
+                        <img class="side-img-xssm" src="img/side-img.png" alt="Offers" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clear-fix"></div>
+    <section id="tab_1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <input id="tab1" type="radio" name="tabs" checked>
+                    <label for="tab1">Men's</label>
+                    <input id="tab2" type="radio" name="tabs">
+                    <label for="tab2">Women's</label>
+                    <input id="tab3" type="radio" name="tabs">
+                    <label for="tab3">Mobile</label>
+                    <input id="tab4" type="radio" name="tabs">
+                    <label for="tab4">Tab</label>
+                    <input id="tab5" type="radio" name="tabs">
+                    <label for="tab5">Laptop</label>
+                    <input id="tab6" type="radio" name="tabs">
+                    <label for="tab6">Desktops</label>
+                    <input id="tab7" type="radio" name="tabs">
+                    <label for="tab7">Others</label>
+                    <sections id="content1">
+                        <h3>Men's Fassion</h3>
+                        <div class="col-md-4 col-sm-4">
+                            <img class="tab-images" src="img/mens.jpg" alt="Men's Fssion" />
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="hidden-xs hidden-sm visible-md visible-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                            <div class="visible-xs visible-sm hidden-md hidden-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a><b>Read More.</b></a></div>
+                        </div>
+                    </sections>
+                    <sections id="content2">
+                        <h3>Women's Fassion</h3>
+                        <div class="col-md-4 col-sm-4">
+                            <img class="tab-images" src="img/womens.jpg" alt="Women's Fassion" />
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="hidden-xs hidden-sm visible-md visible-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                            <div class="visible-xs visible-sm hidden-md hidden-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a><b>Read More.</b></a></div>
+                        </div>
+                    </sections>
+                    <sections id="content3">
+                        <h3>Lastest Mobile's</h3>
+                        <div class="col-md-4 col-sm-4">
+                            <img class="tab-images" src="img/mobile.jpg" alt="Lastest Mobile's" />
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="hidden-xs hidden-sm visible-md visible-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                            <div class="visible-xs visible-sm hidden-md hidden-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a><b>Read More.</b></a></div>
+                        </div>
+                    </sections>
+                    <sections id="content4">
+                        <h3>Latest Tablet's</h3>
+                        <div class="col-md-4 col-sm-4">
+                            <img class="tab-images" src="img/tab.jpg" alt="Latest Tablet's" />
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="hidden-xs hidden-sm visible-md visible-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                            <div class="visible-xs visible-sm hidden-md hidden-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a><b>Read More.</b></a></div>
+                        </div>
+                    </sections>
+                    <sections id="content5">
+                        <h3>Further Laptop's</h3>
+                        <div class="col-md-4 col-sm-4">
+                            <img class="tab-images" src="img/laptop.jpg" alt="Further Laptop's" />
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="hidden-xs hidden-sm visible-md visible-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                            <div class="visible-xs visible-sm hidden-md hidden-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a><b>Read More.</b></a></div>
+                        </div>
+                    </sections>
+                    <sections id="content6">
+                        <h3>Advanced Desktop's</h3>
+                        <div class="col-md-4 col-sm-4">
+                            <img class="tab-images" src="img/desktop.jpg" alt="Advanced Desktop's" />
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="hidden-xs hidden-sm visible-md visible-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                            <div class="visible-xs visible-sm hidden-md hidden-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a><b>Read More.</b></a></div>
+                        </div>
+                    </sections>
+                    <sections id="content7">
+                        <h3>Other's</h3>
+                        <div class="col-md-4 col-sm-4">
+                            <img class="tab-images" src="img/tab-images.jpg" alt="Other's" />
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="hidden-xs hidden-sm visible-md visible-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                            <div class="visible-xs visible-sm hidden-md hidden-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <a><b>Read More.</b></a></div>
+                        </div>
+                    </sections>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="hidden-xs hidden-sm visible-md visible-lg">
+                        <img class="side-img-mdlg" src="img/side-img.png" alt="Offers" />
+                    </div>
+                    <div class="visible-xs visible-sm hidden-md hidden-lg">
+                        <img class="side-img-xssm" src="img/side-img.png" alt="Offers" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clear-fix"></div>
+    <section id="image_hover">
+        <div class="container-fluid">
+            <div class="rows">
+                <div class="grid">
+                    <div class="col-md-3">
+                        <figure class="effect-hover">
+                            <img src="https://tympanus.net/Development/HoverEffectIdeas/img/21.jpg" alt="10% Offers" />
+                            <figcaption>
+                                <h2>Shop Now.! <span>10% offers</span></h2>
+                                <div>
+                                    <p>Mobile's</p>
+                                    <br />
+                                    <p>Laptop's</p>
+                                    <br />
+                                    <p>Desktop's</p>
+                                    <br />
+                                </div>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3">
+                        <figure class="effect-hover">
+                            <img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="25% Offers" />
+                            <figcaption>
+                                <h2>Shop Now.! <span>25% offers</span></h2>
+                                <div>
+                                    <p>Mobile's Accessories</p>
+                                    <br />
+                                    <p>Laptop's Accessories</p>
+                                    <br />
+                                    <p>Desktop's Accessories</p>
+                                    <br />
+                                </div>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3">
+                        <figure class="effect-hover">
+                            <img src="https://tympanus.net/Development/HoverEffectIdeas/img/21.jpg" alt="50% Offers" />
+                            <figcaption>
+                                <h2>Shop Now.! <span>50% offers</span></h2>
+                                <div>
+                                    <p>Men's Wear</p>
+                                    <br />
+                                    <p>Womens's Wear</p>
+                                    <br />
+                                    <p>Cosmetics</p>
+                                    <br />
+                                </div>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-3">
+                        <figure class="effect-hover">
+                            <img src="https://tympanus.net/Development/HoverEffectIdeas/img/22.jpg" alt="75% Offers" />
+                            <figcaption>
+                                <h2>Shop Now.! <span>75% offers</span></h2>
+                                <div>
+                                    <p>Electronic Accessories</p>
+                                    <br />
+                                    <p>Home Appliances</p>
+                                    <br />
+                                    <p>Vehicle Accessories</p>
+                                    <br />
+                                </div>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clear-fix"></div>
+    <footer id="footer">
+        <div class="splitter"></div>
+        <ul>
+            <div class="col-md-4 col-sm-12">
+                <li>
+                    <div class="icon" data-icon="H"></div>
+                    <div class="text">
+                        <h4>HOME</h4>
+                        <ul class="content-text">
+                            <li>aaa</li>
+                            <li>aaa</li>
+                            <li>aaa</li>
+                            <li>aaa</li>
+                            <li>aaa</li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <li>
+                    <div class="icon" data-icon="A"></div>
+                    <div class="text">
+                        <h4>ABOUT</h4>
+                        <ul class="content-text">
+                            <li>bbb</li>
+                            <li>bbb</li>
+                            <li>bbb</li>
+                            <li>bbb</li>
+                            <li>bbb</li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <li>
+                    <div class="icon" data-icon="C"></div>
+                    <div class="text">
+                        <h4>CONTACT</h4>
+                        <ul class="content-text">
+                            <li>ccc</li>
+                            <li>ccc</li>
+                            <li>ccc</li>
+                            <li>ccc</li>
+                            <li>ccc</li>
+                        </ul>
+                    </div>
+                </li>
+            </div>
+        </ul>
+        <div class="bar">
+            <div class="bar-wrap">
+                <div class="copyright">&copy; 2018 All Rights Reserved</div>
+                <div class="clear"></div>
+                <div class="social">
+                    <a href="#" class="fb">
+                      <span data-icon="f" class="icon"></span>
+                    </a>
+                    <a href="#" class="tw">
+                      <span data-icon="T" class="icon"></span>
+                    </a>
+                    <a href="#" class="rss">
+                      <span data-icon="R" class="icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+</body>
+
+</html>
